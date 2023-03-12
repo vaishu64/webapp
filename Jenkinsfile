@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('GetCode') {
             steps {
-                               git branch: 'master'
+                               git branch: 'master',
                 url: 'https://github.com/vaishu64/webapp.git'
                 
             }
